@@ -1,0 +1,135 @@
+body {
+  font-family: "Montserrat", sans-serif !important;
+  font-family: "Plus Jakarta Sans", sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 1;
+}
+.navbar {
+  height: 5rem;
+  background-color: aliceblue;
+}
+
+.fa-compass {
+  color: brown;
+  font-size: 2rem;
+}
+
+.nav-link {
+  color: #222222 !important;
+}
+
+.f-info-links a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.f-info-links a:hover {
+  text-decoration: underline;
+}
+
+.f-info {
+  text-align: center;
+  display: flex;
+  height: 8rem;
+  background-color: aqua;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: space-evenly;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brands {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.f-info-socials i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.row {
+  display: flex;
+}
+
+/* Cards  */
+
+.listing-card {
+  border: none !important;
+  margin-bottom: 2rem;
+}
+
+.card-img-top {
+  border-radius: 1rem !important;
+  width: 100% !important;
+  object-fit: cover !important;
+}
+
+.card-body {
+  padding: 0 !important;
+}
+
+.card-text p {
+  font-weight: 400 !important;
+}
+
+.listing-link {
+  text-decoration: none;
+}
+
+/* Card Effects  */
+
+.card-img-overlay {
+  opacity: 0;
+}
+
+.card-img-overlay:hover {
+  opacity: 0.5;
+  background-color: aqua;
+}
+
+.add-btn {
+  background-color: aqua !important;
+  border: none;
+}
+
+.edit-btn {
+  background-color: aqua !important;
+  border: none;
+}
+
+/* Edit page  */
+
+.edit-btn {
+  background-color: aqua !important;
+  border: none;
+}
+
+/* show page  */
+
+.show-img {
+  height: 30vh;
+}
+
+/* styling for map  */
+
+/* #map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+} */
+#map {
+  height: 400px;
+  width: 80vp;
+  border-radius: 5%;
+}
